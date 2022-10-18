@@ -3,9 +3,8 @@
  * times_table - prints the 9 times table, starting with 0
  *
  */
-{
 	int num, mult, prod;
-
+{
 	for (num = 0; num <= 9; num++)
 	{
 		_putchar('0');
