@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Prints program name, followed by a new line.
  * @argc: number of comman line argurments.
