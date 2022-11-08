@@ -6,8 +6,19 @@
  * @argv: array that contains program command line.
  * Return: 0 - success.
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[]);
 {
-	printf("%s\n", argv[0]);
+/*declaring variables*/
+int count = 0;
+
+if (argc > 0)
+{
+/*WHILE -  each arguments*/
+while (count < argc)
+{
+printf("%s\n", argv[count]);
+count++;
+}
+}
 	return (0);
 }
